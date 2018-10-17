@@ -2,10 +2,12 @@
 
 /* button functions */
 
-function refresh(){
-	clrCookies('text');
-	clrCookies('width');
-	clrCookies('cookies');
+function refresh(clr=false){
+	if(clr){
+		clrCookies('text');
+		clrCookies('width');
+		clrCookies('cookies');
+	}
 	$('.container').removeClass('fadeInDown delay-1s').addClass('fadeOutUp');
 	$('#cookies').removeClass('fadeInUp delay-2s').addClass('fadeOutDown');
 	setTimeout(function(){location.reload();},1000);

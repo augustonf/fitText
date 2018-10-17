@@ -17,7 +17,8 @@
 				<input type="text" id="text_in" placeholder='Write your text here...'>
 				<label>Set the width of the button: <span id='w_label'></span></label>
 				<input type="range" min="0" max="180" value="180" class="slider" id="width">
-				<input type="button" value="Clear cookies & refresh" onclick="refresh();">
+				<input type="button" value="Clear cookies & refresh" onclick="refresh(true);">
+				<input type="button" value="Just refresh" onclick="refresh();">
 			</form>
 			<div id='output_div'><p></p></div>
 		</div>
