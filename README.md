@@ -30,7 +30,9 @@ fitText needs 2 DOM elements:
 </ul>
 
 ```html
-<div class='parent'><p class='child'>This text may change in lenght</p></div>
+<div class='parent'>
+  <p class='child'>This text may change in lenght</p>
+</div>
 ```
 
 That's it, now you are all set to use fitText.js
