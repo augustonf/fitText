@@ -47,5 +47,7 @@ To call fitText, pass it a CSS selector:
 
 A good idea is to call fitText when the size of the parent containers might change, for example whenever the window resizes.
 
+<h2>6. Probable upgrades</h2>
 
+Find appropiate font-size using a binary search to reduce algorithm complexity from O(n) to O(log n). Nevertheless, the maximum value for n is the height of the parent container in px. 
 
