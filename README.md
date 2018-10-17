@@ -10,7 +10,7 @@ Tired of fitting variable length texts inside fixed containers by hand? Or resiz
 
 fitText only needs jQuery to run. Make sure to include it before fitText to avoid errors.
 
-<h2>2. Installation</h2>
+<h2>3. Installation</h2>
 
 1. Download the file fitText.js
 
@@ -20,7 +20,7 @@ fitText only needs jQuery to run. Make sure to include it before fitText to avoi
 <script src='./js/fitText.js'></script>
 ```
 
-<h2>3. Structure setup</h2>
+<h2>4. Structure setup</h2>
 
 fitText needs 2 DOM elements:
 
@@ -34,7 +34,7 @@ fitText needs 2 DOM elements:
 
 That's it, now you are all set to use fitText.js
 
-<h2>3. Usage</h2>
+<h2>5. Usage</h2>
 
 To call fitText, pass it a CSS selector:
 
