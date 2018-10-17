@@ -53,4 +53,4 @@ Find appropiate font-size using a binary search to reduce algorithm complexity f
 
 <h2>7. Another solutions</h2>
 
-There is also another library that does something similar to fitText, called [fitty](https://github.com/rikschennink/fitty), but I had some wobble when calling it with the same frequency as fitText in the example. This may not be a problem in a static page that only changes the container's size once in a while, so I'll just leave it here.
+There is also another library that does something similar to fitText called [fitty](https://github.com/rikschennink/fitty), but I had some wobble when calling it with the same frequency as fitText in the example. This may not be a problem in a static page that only changes the container's size once in a while, so I'll just leave it here.
