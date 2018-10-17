@@ -4,7 +4,7 @@
 
 Tired of fitting variable length texts inside fixed containers by hand? Or resizing text depending on the parent's size? Then this is for you.
 
-**TL;DR: Run fitText(*CSS selector*).**
+**TL;DR: Run fitText(*CSS selector*). It will fit the selector's text inside the parent element.**
 
 <h2>2. Requirements</h2>
 
