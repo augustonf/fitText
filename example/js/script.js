@@ -7,6 +7,7 @@ function refresh(){
 	clrCookies('width');
 	clrCookies('cookies');
 	$('.container').removeClass('fadeInDown delay-1s').addClass('fadeOutUp');
+	$('#cookies').removeClass('fadeInUp delay-2s').addClass('fadeOutDown');
 	setTimeout(function(){location.reload();},750);
 }
 function acceptCookies(){
