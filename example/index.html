@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Try out fitText!</title>
+		<link rel='stylesheet' type='text/css' href='./css/style.css'>
+		<link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="./js/cookies.js"></script>
+		<script src="./js/fitText.js"></script>
+		<script src="./js/script.js"></script>
+	</head>
+	<body>
+		<div class='container animated fadeInDown delay-1s'>
+			<form>
+				<h1>Try out fitText:</h1>
+				<label>Change the text of the button:</label>
+				<input type="text" id="text_in" placeholder='Write your text here...'>
+				<label>Set the width of the button: <span id='w_label'></span></label>
+				<input type="range" min="0" max="180" value="180" class="slider" id="width">
+				<input type="button" value="Clear cookies & refresh" onclick="refresh();">
+			</form>
+			<div id='output_div'><p></p></div>
+		</div>
+		<div id='cookies' class='animated fadeInUp delay-2s'><p>By the way, this site uses cookies to preserve the form data between page reloads.</p><input type="button" value="Accept & Dismiss" onclick="acceptCookies();"></div>
+	</body>
+</html>
