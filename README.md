@@ -24,9 +24,10 @@ fitText only needs jQuery to run. Make sure to include it before fitText to avoi
 
 fitText needs 2 DOM elements:
 
-+A Parent, which sets the boundaries for the text.
-+A Child, which contains the text to resize. 
-
+<ul>
+  <li>A Parent, which sets the boundaries for the text. </li>
+  <li>A Child, which contains the text to resize. </li>
+</ul>
 
 ```html
 <div class='parent'><p class='child'>This text may change in lenght</p></div>
