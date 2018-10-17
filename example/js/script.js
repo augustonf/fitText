@@ -43,7 +43,7 @@ $(document).ready(function(){
 		Once inputs have been initialized, run fitText.
 	*/
 	
-	fitText($('#output_div')[0]);
+	fitText('#output_div p');
 	
 
 	/*
@@ -61,7 +61,7 @@ $(document).ready(function(){
 			$('#output_div p').html("Write your text here...");					
 			setCookie("text","",0);
 		}
-		fitText($('#output_div')[0]);
+		fitText('#output_div p');
 	});	
 	
 	$('#width').on('change mousemove swipe',function(){
@@ -69,7 +69,7 @@ $(document).ready(function(){
 		$('#width').val($(this).val());
 		$('#output_div').width(10+$(this).val()/2+'%');
 		$('#w_label').html(10+$(this).val()/2+'%');
-		fitText($('#output_div')[0]);
+		fitText('#output_div p');
 	});
 	
 	/* 
@@ -77,6 +77,6 @@ $(document).ready(function(){
 		upon window resizing we run fitText just in case.
 	*/
 	$(window).resize(function(){
-		fitText($('#output_div')[0]);
+		fitText('#output_div p');
 	});
 });

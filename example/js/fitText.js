@@ -2,10 +2,10 @@
 /* fitText function */
 
 
-function fitText(element){
+function fitText(selector){
 	var i = 0;
-	var parent = $('#'+element.id);
-	var child = $('#'+element.id).children('p');
+	var parent = $(selector).parent();
+	var child = $(selector);
 	if(parent.height()>child.height() && parent.width()>child.width()){
 		child.css('font-size',parent.height()+'px');
 	}
